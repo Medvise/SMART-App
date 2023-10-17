@@ -9,8 +9,8 @@ from flask import Flask, request, redirect, session
 
 # app setup
 smart_defaults = {
-    'app_id': 'my_web_app',
-    'api_base': 'https://sb-fhir-stu3.smarthealthit.org/smartstu3/data',
+    'app_id': '9b1dbc72-5ada-4c34-a9ab-724122c3d4bf',
+    'api_base': 'https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/',
     'redirect_uri': 'http://localhost:8000/fhir-app/',
 }
 
